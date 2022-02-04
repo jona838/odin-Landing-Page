@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #1f2937;
+    padding-bottom: 70px;
+}
+
+header {
+    width: 800px;
+    margin: auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body{
+    margin-top: 70px;
+}
