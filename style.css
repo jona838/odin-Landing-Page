@@ -10,7 +10,7 @@
 }
 
 header {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -21,7 +21,11 @@ header {
 }
 
 .body{
-    margin-top: 70px;
+    margin-top: 150px;
+}
+
+.ojo{
+    width: 500px;
 }
 
 .body h1{
@@ -43,8 +47,8 @@ header {
 
 
 .image{
-    width: 520px;
-    height: 220px;
+    width: 570px;
+    height: 250px;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -62,4 +66,38 @@ header {
     text-align: center;
     font-weight: 500;
     border-radius: 5px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-box{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1f2937;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: solid 2px #3882F5;
+    border-radius: 6px;
 }
