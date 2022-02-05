@@ -6,19 +6,60 @@
 
 .header{
     background-color: #1f2937;
-    padding-bottom: 70px;
+    padding-bottom: 120px;
 }
 
 header {
-    width: 800px;
+    width: 1000px;
     margin: auto;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
 }
 
 .body{
     margin-top: 70px;
+}
+
+.body h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.head-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.image{
+    width: 520px;
+    height: 220px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    margin-left: 50px;
+}
+
+.button{
+    margin-top: 15px;
+    background-color: #3882F5;
+    border: none;
+    color: white;
+    padding: 7px 25px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 5px;
 }
