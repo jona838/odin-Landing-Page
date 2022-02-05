@@ -159,3 +159,12 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
+footer{
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
